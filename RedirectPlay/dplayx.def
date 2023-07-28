@@ -1,0 +1,14 @@
+LIBRARY "dplayx.dll"
+
+EXPORTS
+    DirectPlayCreate        @1
+    DirectPlayEnumerateA    @2
+    DirectPlayEnumerateW    @3
+    DirectPlayLobbyCreateA  @4
+    DirectPlayLobbyCreateW  @5
+    DllCanUnloadNow         @6  PRIVATE
+    DllGetClassObject       @7  PRIVATE
+    DllRegisterServer       @8  PRIVATE
+    DirectPlayEnumerate     = DirectPlayEnumerate_Implementation    @9          
+    DllUnregisterServer     @10 PRIVATE
+    gdwDPlaySPRefCount      @11

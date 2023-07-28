@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\COM">
+      <UniqueIdentifier>{ee88b6f5-78f9-454e-ba93-709071abf8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LibRelay">
+      <UniqueIdentifier>{d64330fd-3499-4143-a5fc-9e10029b9ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ServiceProviders">
+      <UniqueIdentifier>{ffb2d5b0-e8bc-49c1-b4a1-66bd8da27f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ServiceProviders\Steamworks">
+      <UniqueIdentifier>{b235e1a7-14eb-4586-ad27-3f83fa75afd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DirectPlay">
+      <UniqueIdentifier>{9108c172-7aea-4677-b6da-935f572cc611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{392ae049-df37-4695-9f8e-293d71f9ef57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{f57f6700-3c29-49bf-87f4-98ee7be4b382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\DirectX">
+      <UniqueIdentifier>{29aaf478-de3c-4923-bdc5-8e11dbe5d15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Steam">
+      <UniqueIdentifier>{0543c2fc-94ed-4985-a616-d7139b5e2244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\MinHook">
+      <UniqueIdentifier>{a580c631-31ee-4461-ad9e-495a04fe836e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\MinHook\include">
+      <UniqueIdentifier>{f04c6edf-4d9d-44d1-a9c4-b9b5e07d51e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\MinHook\src">
+      <UniqueIdentifier>{4f61bfb3-27da-4593-98ba-f03c09723e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\MinHook\src\hde">
+      <UniqueIdentifier>{cdd3c58f-a398-4112-979d-e74b51d2dc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ServiceProviders\Steamworks\Messages">
+      <UniqueIdentifier>{a22a42e1-2afa-4aa2-9d96-f361689c6951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ServiceProviders\Steamworks\SessionList">
+      <UniqueIdentifier>{0d1f985e-db3f-46d9-aed0-ec6a6d7d8941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ServiceProviders\Steamworks\Server">
+      <UniqueIdentifier>{bf63a06a-36ad-4280-8aba-04b9af8fd8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ServiceProviders\Steamworks\Client">
+      <UniqueIdentifier>{5aa3de2a-9257-48d8-8356-2b08765516f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Steam\redistributable_bin">
+      <UniqueIdentifier>{b297b73d-4270-4ff3-bde2-661f8d842d66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="COM\ComObject.h">
+      <Filter>Source\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\ClassFactory.h">
+      <Filter>Source\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRelay\LibRelay.h">
+      <Filter>Source\LibRelay</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\SteamPlayUtilities.h">
+      <Filter>Source\ServiceProviders\Steamworks</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\SteamTypes.h">
+      <Filter>Source\ServiceProviders\Steamworks</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\SteamPlayProvider.h">
+      <Filter>Source\ServiceProviders\Steamworks</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectPlay\DirectPlay.h">
+      <Filter>Source\DirectPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectPlay\Utils.h">
+      <Filter>Source\DirectPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectPlay\DirectPlayLobby.h">
+      <Filter>Source\DirectPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectPlay\CompoundAddress.h">
+      <Filter>Source\DirectPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Registration.h">
+      <Filter>Source\ServiceProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\GUIDUtils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Globals.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StringUtils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\fstring.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\DirectX\dplay.h">
+      <Filter>External\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\DirectX\dplobby.h">
+      <Filter>External\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\include\MinHook.h">
+      <Filter>External\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\buffer.h">
+      <Filter>External\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\trampoline.h">
+      <Filter>External\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\hde\hde32.h">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\hde\hde64.h">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\hde\pstdint.h">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\hde\table32.h">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\MinHook\src\hde\table64.h">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamcontroller.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamhttp.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteaminventory.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamnetworkingutils.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamremotestorage.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamugc.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamvideo.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steam_api_internal.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamnetworkingfakeip.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamfriends.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteaminput.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamnetworkingmessages.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamnetworkingsockets.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamutils.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steam_api_flat.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamclientpublic.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamnetworkingtypes.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamapplist.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamapps.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamappticket.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamgameserver.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamhtmlsurface.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamuser.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamuserstats.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steam_gameserver.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamtypes.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamuniverse.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamnetworking.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamclient.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamgameserverstats.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteammatchmaking.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamparentalsettings.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamps3overlayrenderer.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamremoteplay.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\matchmakingtypes.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steam_api.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steam_api_common.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamencryptedappticket.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamhttpenums.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamgamecoordinator.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteammusic.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteammusicremote.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\isteamscreenshots.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\Steam\steamps3params.h">
+      <Filter>External\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\IRegistration.h">
+      <Filter>Source\ServiceProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Memory.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Messages\Messages.h">
+      <Filter>Source\ServiceProviders\Steamworks\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Messages\MessageSender.h">
+      <Filter>Source\ServiceProviders\Steamworks\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\SessionList\SteamLobbiesRequest.h">
+      <Filter>Source\ServiceProviders\Steamworks\SessionList</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\SessionList\SteamServersRequest.h">
+      <Filter>Source\ServiceProviders\Steamworks\SessionList</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Server\SteamPlayServer.h">
+      <Filter>Source\ServiceProviders\Steamworks\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Server\SteamLobbyServer.h">
+      <Filter>Source\ServiceProviders\Steamworks\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Client\SteamPlayClient.h">
+      <Filter>Source\ServiceProviders\Steamworks\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Client\Dialogs.h">
+      <Filter>Source\ServiceProviders\Steamworks\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviders\Steamworks\Server\SteamServerSettings.h">
+      <Filter>Source\ServiceProviders\Steamworks\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\IPtr.h">
+      <Filter>Source\COM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="dplay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="dplobby.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\ClassFactory.cpp">
+      <Filter>Source\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\ComObject.cpp">
+      <Filter>Source\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRelay\LibRelay.cpp">
+      <Filter>Source\LibRelay</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\SteamPlayUtilities.cpp">
+      <Filter>Source\ServiceProviders\Steamworks</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\SteamPlayProvider.cpp">
+      <Filter>Source\ServiceProviders\Steamworks</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectPlay\DirectPlay.cpp">
+      <Filter>Source\DirectPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectPlay\Utils.cpp">
+      <Filter>Source\DirectPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectPlay\DirectPlayLobby.cpp">
+      <Filter>Source\DirectPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectPlay\CompoundAddress.cpp">
+      <Filter>Source\DirectPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Registration.cpp">
+      <Filter>Source\ServiceProviders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\MinHook\src\trampoline.c">
+      <Filter>External\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\MinHook\src\hook.c">
+      <Filter>External\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\MinHook\src\buffer.c">
+      <Filter>External\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\MinHook\src\hde\hde64.c">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\MinHook\src\hde\hde32.c">
+      <Filter>External\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\Messages\MessageSender.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\SessionList\SteamLobbiesRequest.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\SessionList</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\SessionList\SteamServersRequest.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\SessionList</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\Server\SteamPlayServer.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\Server\SteamLobbyServer.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\Client\SteamPlayClient.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceProviders\Steamworks\Client\Dialogs.cpp">
+      <Filter>Source\ServiceProviders\Steamworks\Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RedirectPlay.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\External\Steam\steam_api.json">
+      <Filter>External\Steam</Filter>
+    </None>
+    <None Include="..\External\Steam\redistributable_bin\steam_api.dll">
+      <Filter>External\Steam\redistributable_bin</Filter>
+    </None>
+  </ItemGroup>
+</Project>
