@@ -37,14 +37,3 @@ In this case it is enough to just put a custom library file in the application's
 To compile the code you need public headers from the following SDKs:
 [Steamworks SDK](https://partner.steamgames.com/downloads/list) - Copy the headers from \public\steam\ to RedirectPlay\External\Steam\.
 [DirectX8 SDK](https://archive.org/details/dx8sdk) - Copy dplay.h and dplobby.h from \include\ to RedirectPlay\External\DirectX\.
-
-## Example showcase: Stronghold Crusader
-
-#### Service Providers with the new addition "Steamworks Connection"
-![grafik](https://github.com/Sh0wdown/RedirectPlay/assets/9576090/99349726-e54b-4b11-a1fa-611748644c60)
-
-#### Server Settings Messagebox
-![grafik](https://github.com/Sh0wdown/RedirectPlay/assets/9576090/c3e28e4e-3813-4502-b5b6-3be16e0471d5)
-
-#### Session list
-![grafik](https://github.com/Sh0wdown/RedirectPlay/assets/9576090/6f52d354-11a2-47fa-b4d0-5069a5bf9a64)
