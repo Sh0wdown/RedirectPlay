@@ -3,7 +3,7 @@
 ## Overview
 
 This library allows to establish a DirectPlay4 session through Steam using the public APIs of both.
-It extends DirectPlay functionality by adding a new "Service Provider" as an option for the user if Steam is running.
+It extends DirectPlay functionality by adding a new "Service Provider" as an option for the user if running an application through Steam.
 By choosing this new "Steamworks Connection" Service Provider networking will be done through the Steamworks API.
 Sessions can be created public or for friends only.
 
