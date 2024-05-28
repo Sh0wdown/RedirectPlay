@@ -36,4 +36,5 @@ In this case it is enough to just put a custom library file in the application's
 ## Compiling the code
 To compile the code you need public headers from the following SDKs:
 [Steamworks SDK](https://partner.steamgames.com/downloads/list) - Copy the headers from \public\steam\ to RedirectPlay\External\Steam\.
-[DirectX8 SDK](https://archive.org/details/dx8sdk) - Copy dplay.h and dplobby.h from \include\ to RedirectPlay\External\DirectX\.
+[DirectX8 SDK](https://archive.org/details/dx8sdk) - Copy dplay.h and dplobby.h from \include\ to RedirectPlay\External\DirectX\.  
+One edit needs to be done in `dplobby.h`: The interface `IDirectPlayLobby3` needs to inherit `IDirectPlayLobby2`. In the code DirectX provides this interface inherits from `IDirectPlayLobby` instead, which seems to be a mistake.
